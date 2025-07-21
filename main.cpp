@@ -38,7 +38,7 @@ public:
     }
 
     void getCurrentWeather(const std::string& city) {
-        if(apiKey == "PUNE_AICI_CHEIA_TA_DE_LA_WEATHERAPI") {
+        if(apiKey == "KEY_HERE") {
             std::cout << "Error: Please set your WeatherAPI key first!\n";
             std::cout << "Get one free at: https://www.weatherapi.com\n\n";
             return;
