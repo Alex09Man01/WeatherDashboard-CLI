@@ -80,7 +80,7 @@ int main() {
         switch(choice) {
             case 1:
                 std::cout << "Enter city name: ";
-                std::cin.ignore(); // pentru newline
+                std::cin.ignore(); 
                 std::getline(std::cin, city);
                 dashboard.getCurrentWeather(city);
                 break;
