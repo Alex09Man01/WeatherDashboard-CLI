@@ -10,7 +10,7 @@ private:
 public:
     WeatherDashboard() {
         //To make this work put your key here
-        apiKey = "41c656f69c3f4660bd5170549252107";
+        apiKey = ""; //key
         baseUrl = "http://api.weatherapi.com/v1/current.json";
     }
 
